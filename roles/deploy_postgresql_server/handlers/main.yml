@@ -1,0 +1,7 @@
+---
+# handlers file for deploy_postgresql_server
+- name: Restart Postgresql
+  service:
+        name: postgresql
+        state: restarted
+        enabled: true  

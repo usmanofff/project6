@@ -1,0 +1,11 @@
+
+[app]
+ubuntu    ansible_host=158.160.44.246   ansible_user=ubuntu
+centos    ansible_host=130.193.51.203   ansible_user=centos
+
+[database]
+localhost
+
+[web]
+localhost
+

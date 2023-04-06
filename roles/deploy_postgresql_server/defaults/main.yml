@@ -1,0 +1,7 @@
+---
+# defaults file for deploy_postgresql_server
+postresql_version    :    "14"
+postgresql_data_dir  :    "/var/lib/postgresql/{{ postresql_version }}/my_path"
+postgresql_bin_path  :    "/usr/lib/postgresql/{{ postresql_version }}/bin"
+postgresql_conf      :    "/etc/postgresql/14/main/postgresql.conf"
+

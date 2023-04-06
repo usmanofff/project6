@@ -1,0 +1,7 @@
+---
+- name: deploy aaps on srvers
+  hosts: database
+  gather_facts: yes
+  become: yes
+  roles:
+    - deploy_postgresql_server

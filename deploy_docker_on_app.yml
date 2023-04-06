@@ -1,0 +1,7 @@
+---
+- name: deploy aaps on srvers
+  hosts: app
+  gather_facts: yes
+  become: yes
+  roles:
+    - deploy_docker_on_app
